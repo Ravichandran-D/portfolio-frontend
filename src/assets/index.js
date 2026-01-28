@@ -10,8 +10,8 @@ const images = {
     cloudinary: require('./channels4_profile.jpg'),
     assessment: require('./online assessment.png'),
     chatapp: require('./chat-app.png'),
-    taskManger: require('./task-manger.png'),
-    mernEcommerce: require('./mern-ecommerce.png')
+    taskManger: require('./task-manger.png')
+    
 };
 
 export default images;
