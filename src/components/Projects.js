@@ -31,17 +31,17 @@ const Projects = () => {
             },
             {
                 name: "Notes App",
-                image: `${images.weather}`,
+                image: `${images.notesapp}`,
                 description: "Get real-time weather updates based on location",
                 tags: ["React", "API", "CSS"],
                 links: ["https://github.com/Ravichandran-D/Notes_App", "https://p2-notesapp.netlify.app/"]
             },
             {
                 name: "Mobile Store",
-                image: `${images.weather}`,
+                image: `${images.mobilestore}`,
                 description: "Purcheace Mobile,Tablets,Accecessories",
                 tags: ["html", "javascript", "CSS"],
-                links: ["https://github.com/Ravichandran-D/Notes_App", "https://p2-notesapp.netlify.app/"]
+                links: ["https://github.com/Ravichandran-D/MobileShop_WebPage", "https://suriya-mobiles-webpage.netlify.app/"]
             },
         ],
         backend: [
