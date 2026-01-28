@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import diplomoCertificate from '../assets/Diplomo.jpeg';
-import degreeCertificate from '../assets/Degree.jpeg';
+import diplomoCertificate from '../assets/Diplomo.jpg';
+import degreeCertificate from '../assets/Degree.jpg';
 import guviCertificate from '../assets/GuviCertification.png';
 import { FaDownload } from "react-icons/fa";
 
