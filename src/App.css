@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+    --clrPrimary: rgb(8, 19, 31);
+    --clrSecondary: rgb(249, 249, 246);
+    --clrSecondaryLight: rgb(249, 249, 246, 0.7);
+    --clrAccent: rgb(221, 82, 69);
+    --clrAccentLight: rgb(221, 82, 69, 0.7);
+  }
+  
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Space Mono", monospace;
+    background-color: var(--clrPrimary);;
+
+    /* Use an absolute or relative path that's correct */
+    background-image: url("../public/background.svg");
+
+    background-attachment: fixed; /* Ensures it stays fixed while scrolling */
+    background-repeat: no-repeat; /* Prevents repetition of the background */
+    background-position: top; /* Aligns the background to the top */
+    background-size: 60%; /* Adjust the size to 50% of the container */
+}
