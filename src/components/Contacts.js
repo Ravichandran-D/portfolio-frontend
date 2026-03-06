@@ -124,31 +124,30 @@ const Contact = () => {
           initial="hidden"
           animate="visible"
         >
-          {/* Phone Icon and Number */}
-          <div className="flex items-center space-x-4">
-            <div className="flex space-x-6">
-              <a
-                href="https://github.com/Ravichandran-D"
-                className="text-sky-600 hover:text-white"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaGithub size={24} />
-              </a>
-              <a
-                href="https://www.linkedin.com/in/ravichandran-d-c67099309"
-                className="text-sky-600 hover:text-white"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaLinkedinIn size={24} />
-              </a>
-            </div>
-          </div>
+          
 
           {/* Email Icon and Email Link */}
           <div className="flex items-center space-x-4">
-            <SiGmail size={24} className="text-blue-500" />
+            <FaGithub size={32} className="text-blue-500" />
+            <a
+              href="https://github.com/Ravichandran-D"
+              className="text-lg font-medium text-blue-500 hover:underline"
+            >
+              https://github.com/Ravichandran-D
+            </a>
+          </div>
+
+           <div className="flex items-center space-x-4">
+            <FaLinkedinIn size={30} className="text-blue-500" />
+            <a
+              href="https://www.linkedin.com/in/ravichandran-d-c67099309"
+              className="text-lg font-medium text-blue-500 hover:underline"
+            >
+              https://www.linkedin.com/ravichandran-d
+            </a>
+          </div>
+          <div className="flex items-center space-x-4">
+            <SiGmail size={25} className="text-blue-500" />
             <a
               href="mailto:rtamilc67@gmail.com"
               className="text-lg font-medium text-blue-500 hover:underline"

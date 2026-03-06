@@ -82,8 +82,14 @@ const Projects = () => {
                 tags: ["MongoDB", "Express", "React", "Node.js"],
                 links: ["https://github.com/Ravichandran-D/online-assessment-platform-frontend", "https://github.com/Ravichandran-D/online-assessment-platform-backend ", "https://online-assessment-platform01.netlify.app/"]
             },
-            
-           
+            {
+                name: "Task Manager",
+                image: `${images.taskManger}`,
+                description: "A Task Manager web app for efficient task management with Google & Facebook authentication, to-do lists, priority tasks, and notes. Features include dark mode and live random quotes.",
+                tags: ["MongoDB", "Express", "React", "Node.js", "OAuth", "API Ninja quote"],
+                links: ["https://github.com/Ravichandran-D/task-manager-frontend", "https://github.com/Ravichandran-D/task-manager-backend", "https://good-task-manager-app.netlify.app"]
+            },
+                
         ],
     };
 
