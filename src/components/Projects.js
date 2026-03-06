@@ -85,11 +85,31 @@ const Projects = () => {
             {
                 name: "Task Manager",
                 image: `${images.taskManger}`,
-                description: "A Task Manager web app for efficient task management with Google & Facebook authentication, to-do lists, priority tasks, and notes. Features include dark mode and live random quotes.",
+                description: "🗂️ A Task Manager web app for efficient task management with Google & Facebook authentication, to-do lists, priority tasks, and notes. Features include dark mode and live random quotes.",
                 tags: ["MongoDB", "Express", "React", "Node.js", "OAuth", "API Ninja quote"],
                 links: ["https://github.com/Ravichandran-D/task-manager-frontend", "https://github.com/Ravichandran-D/task-manager-backend", "https://good-task-manager-app.netlify.app"]
             },
-                
+            {
+                name: "Job Portal",
+                image: `${images.jobportal}`,
+                description: "🌐 The job portal application built to connect job seekers with recruiters. It provides a platform where users can search for job openings and apply to them, while recruiters can publish new job posts and manage applications.💻📄📤",
+                tags: ["MongoDB", "Express", "React", "Node.js", "html", "Tailwindcss"],
+                links: ["https://github.com/Ravichandran-D/Job_Portal_Frontend", "https://github.com/Ravichandran-D/Job_Portal_Backend", "https://job-portal-frontend-brown-nine.vercel.app/"]
+            },
+            {
+                name: "School Management System",
+                image: `${images.sms}`,
+                description: "The School Management System is a web-based application built using the MERN stack. It aims to streamline school management, class organization, and facilitate communication between students, teachers, and administrators.🏫📊📈",
+                tags: ["MongoDB", "Express", "React", "Node.js", "html", "Tailwindcss"],
+                links: ["https://github.com/Ravichandran-D/SMS_Frontend", "https://github.com/Ravichandran-D/SMS_Backend", "https://sms-frontend-swart.vercel.app/"]
+            },
+            {
+                name: "E-Commerce",
+                image: `${images.ecommerce}`,
+                description: "The Full-Stack E-Commerce Website (MERN) allows users to browse products, add items to a cart, and securely place orders online. It includes features like user authentication, dynamic cart management, and multiple payment options including Stripe, Razorpay, and Cash on Delivery. An admin panel enables administrators to manage products, monitor orders, and update inventory efficiently, providing a complete online shopping experience. 🛒🚀",
+                tags: ["MongoDB", "Express", "React", "Node.js", "html", "Tailwindcss"],
+                links: ["https://github.com/Ravichandran-D/E-commerce_Frontend", "https://github.com/Ravichandran-D/E-commerce_Backend", "https://e-commerce-frontend-henna-chi.vercel.app/"]
+            },     
         ],
     };
 
