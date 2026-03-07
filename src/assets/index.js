@@ -1,7 +1,7 @@
 const images = {
     landingPage: require('./landingPage.png'),
     movieApp: require('./movieApp.png'),
-    ecommerce: require('./ecommerce.jpeg'),
+    ecommercefd: require('./ecommercefd.png'),
     notesapp: require('./NotesApp.png'),
     mobilestore: require('./Mobile store.jpeg'),
     recipes: require('./recepie.jpg'),
@@ -12,7 +12,8 @@ const images = {
     chatapp: require('./chat-app.png'),
     taskManger: require('./task-manger.png'),
     jobportal: require('./jobportal.jpg'),
-    sms: require('./sms.jpeg')     
+    sms: require('./sms.jpeg'),
+    ecommerce: require('./ecommerce.jpeg')    
 };
 
 export default images;

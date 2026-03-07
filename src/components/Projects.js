@@ -24,7 +24,7 @@ const Projects = () => {
             },
             {
                 name: "E-Commerce Site",
-                image: `${images.ecommerce}`,
+                image: `${images.ecommercefd}`,
                 description: "Online store with shopping cart",
                 tags: ["React", "Context API", "CSS"],
                 links: ["https://github.com/Ravichandran-D/Task-6-Add-to-Cart-Using-Router-", "https://task06-addtocart-router.netlify.app/"]
