@@ -10,6 +10,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Courses from './components/Courses';
 import Experience from './components/Experience';
+import ScrollToTop from './ScrollToTop.jsx';
 
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -51,13 +52,16 @@ function App() {
       <div className="text-white">
         <Toaster position="top-right" />
         <Navbar />
+        <ScrollToTop />
 
         <Routes>
           <Route
             path="/"
             element={
               <section className="min-h-screen flex items-center justify-center" id="hero">
-                <Hero />
+                <SectionWrapper>
+                  <Hero />
+                </SectionWrapper>
               </section>
             }
           />

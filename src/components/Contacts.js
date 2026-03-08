@@ -119,42 +119,38 @@ const Contact = () => {
 
         {/* Image Section */}
         <motion.div
-          className="flex flex-col items-center space-y-6 mx-auto"
-          variants={fadeIn}
-          initial="hidden"
-          animate="visible"
+          className="flex flex-col justify-center items-center space-y-6 text-xl z-10"
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 1 }}
         >
-          
-
-          {/* Email Icon and Email Link */}
-          <div className="flex items-center space-x-4">
-            <FaGithub size={32} className="text-blue-500" />
-            <a
-              href="https://github.com/Ravichandran-D"
-              className="text-lg font-medium text-blue-500 hover:underline"
-            >
-              https://github.com/Ravichandran-D
-            </a>
-          </div>
-
-           <div className="flex items-center space-x-4">
-            <FaLinkedinIn size={30} className="text-blue-500" />
-            <a
-              href="https://www.linkedin.com/in/ravichandran-d-c67099309"
-              className="text-lg font-medium text-blue-500 hover:underline"
-            >
-              https://www.linkedin.com/ravichandran-d
-            </a>
-          </div>
-          <div className="flex items-center space-x-4">
-            <SiGmail size={25} className="text-blue-500" />
-            <a
-              href="mailto:rtamilc67@gmail.com"
-              className="text-lg font-medium text-blue-500 hover:underline"
-            >
-              rtamilc67@gmail.com
-            </a>
-          </div>
+          <a
+            href="https://github.com/Ravichandran-D"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-4 text-blue-500 hover:text-white transition"
+          >
+            <FaGithub size={32} />
+            <span className="text-lg">https://github.com/Ravichandran-D</span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/ravichandran-d-c67099309"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-4 text-blue-500 hover:text-white transition"
+          >
+            <FaLinkedinIn size={32} />
+            <span className="text-lg">http://linkedin.com/in/Ravichandran-D</span>
+          </a>
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=rtamilc67@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-4 text-blue-500 hover:text-white transition"
+          >
+            <SiGmail size={32} />
+            <span className="text-lg">Rtamilc67@gmail.com</span>
+          </a>
         </motion.div>
       </div>
     </section>

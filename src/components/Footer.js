@@ -27,7 +27,7 @@ const Footer = () => {
 
                 {/* Copyright Section */}
                 <div className="text-center text-sky-600 text-sm mt-4 md:mt-0">
-                    © 2025 Ravichandran D. All rights reserved.
+                    © 2026 Ravichandran D. All rights reserved.
                 </div>
             </div>
         </footer>
